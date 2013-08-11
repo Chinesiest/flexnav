@@ -19,7 +19,6 @@
       'animationSpeed': 250,
       'transitionOpacity': true,
       'buttonSelector': '.menu-button',
-      'accordion': false,
       'hoverIntent': false,
       'hoverIntentTimeout': 150
     }, options);
@@ -134,9 +133,7 @@
       return $(this).parent('.item-with-ul').find('>ul').addClass("open").show();
     });
     resizer();
-    if (settings.accordion === !true) {
-      return $(window).on('resize', resizer);
-    }
+    return $(window).on('resize', resizer);
   };
 
 }).call(this);

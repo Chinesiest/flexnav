@@ -15,7 +15,6 @@ $.fn.flexNav = (options) ->
     'animationSpeed': 250,
     'transitionOpacity': true,
     'buttonSelector': '.menu-button',
-    'accordion': false,
     'hoverIntent': false,
     'hoverIntentTimeout': 150
     options
@@ -152,5 +151,4 @@ $.fn.flexNav = (options) ->
   resizer()
 
   # Call on browser resize
-  if settings.accordion is not true
-    $(window).on('resize', resizer)
+  $(window).on('resize', resizer)

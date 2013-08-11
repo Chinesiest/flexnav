@@ -22,7 +22,7 @@ body {
   border-top: 5px solid #3a3261;
   color: #333;
   font-family: "dejarip-1", "dejarip-2", "Helvetica Neue", Arial, clean, sans-serif;
-  background: url("http://jasonweaver.name/img/textured-background2.png") -10% -16px; }
+  background: white; }
 
 ::selection {
   color: #fff;

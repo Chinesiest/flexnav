@@ -17,7 +17,7 @@
     <div class="container">
       <header id="site-header">
         <hgroup class="site-title">
-          <h1>FlexNav</h1>
+          <h1><a href="/">FlexNav</a></h1>
           <h2 class="site-title-sub">A jQuery Plugin for Responsive Menus</h2>
         </hgroup>
         <div class="menu-button">Menu</div>
@@ -109,66 +109,7 @@
         </article>
         <article>
           <div class="article-wrap">
-            <div class="block">	
-				<img src="http://jasonweaver.name/img/devices.png" alt="devices" class="img-devices">
-		        <nav>
-		          <ul data-breakpoint="2000" class="flexnav-accordion">
-		            <li><a href="">Item 1</a>
-		              <ul>
-		                <li> <a href="#content">Sub 1 Item 1</a></li>
-		                <li><a href="">Sub 1 Item 2</a></li>
-		                <li><a href="">Sub 1 Item 3</a></li>
-		                <li><a href="">Sub 1 Item 4</a></li>
-		              </ul>
-		            </li>
-		            <li><a href="">Item 2</a>
-		              <ul>
-		                <li><a href="">Sub 1 Item 1</a></li>
-		                <li><a href="">Sub 1 Item 2</a>
-		                  <ul>
-		                    <li><a href="">Sub 2 Item 1</a></li>
-		                    <li><a href="">Sub 2 Item 2</a></li>
-		                    <li><a href="">Sub 2 Item 3</a></li>
-		                  </ul>
-		                </li>
-		                <li><a href="">Sub 1 Item 3</a>
-		                  <ul>
-		                    <li><a href="">Sub 2 Item 1</a></li>
-		                    <li><a href="">Sub 2 Item 2</a>
-		                      <ul>
-		                        <li><a href="">Sub 3 Item 1</a></li>
-		                        <li><a href="">Sub 3 Item 2</a></li>
-		                        <li><a href="">Sub 3 Item 3</a></li>
-		                      </ul>
-		                    </li>
-		                  </ul>
-		                </li>
-		              </ul>
-		            </li>
-		            <li><a href="">Item 3</a>
-		              <ul>
-		                <li><a href="">Sub 1 Item 1</a></li>
-		                <li><a href="">Sub 1 Item 2</a></li>
-		                <li><a href="">Sub 1 Item 3</a></li>
-		              </ul>
-		            </li>
-		            <li><a href="">Item 4</a>
-		              <ul>
-		                <li><a href="">Sub 1 Item 1</a></li>
-		                <li><a href="">Sub 1 Item 2</a></li>
-		                <li><a href="">Sub 1 Item 3</a></li>
-		              </ul>
-		            </li>
-		            <li><a href="">Item 5</a>
-		              <ul>
-		                <li><a href="">Sub 1 Item 1</a></li>
-		                <li><a href="">Sub 1 Item 2</a></li>
-		                <li><a href="">Sub 1 Item 3</a></li>
-		              </ul>
-		            </li>
-		          </ul>
-		        </nav>
-			</div>
+            <div class="block"><img src="http://jasonweaver.name/img/devices.png" alt="devices" class="img-devices"></div>
             <div class="block">
               <h2>Get FlexNav v1.1</h2>
               <p><a href="https://github.com/indyplanets/flexnav" class="callout">Download on GitHub &rarr;</a></p>
@@ -215,11 +156,6 @@
     <script type="text/javascript">
         jQuery(document).ready(function($){
           $(".flexnav").flexNav();
-		  $(".flexnav-accordion").flexNav({
-			  'accordion': true,
-			  'opacity': false,
-			  'buttonSelector': false
-		  });
         });
     </script>
   </body>
